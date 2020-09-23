@@ -5,7 +5,7 @@
         manifest.xml
         manifest.xml
 -->
-<manifest version="1.0" type="device" target-level="3">
+<manifest version="1.0" type="device" target-level="4">
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
@@ -775,6 +775,6 @@
         <fqname>@1.0::IXiaomiFingerprint/default</fqname>
     </hal>
     <sepolicy>
-        <version>29.0</version>
+        <version>30.0</version>
     </sepolicy>
 </manifest>
