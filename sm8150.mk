@@ -198,7 +198,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti
+    android.hardware.light@2.0-service.xiaomi_sm8150
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
