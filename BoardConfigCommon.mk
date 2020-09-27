@@ -9,6 +9,7 @@ BOARD_VENDOR := xiaomi
 COMMON_PATH := device/xiaomi/sm8150-common
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 # Architecture
 TARGET_ARCH := arm64
